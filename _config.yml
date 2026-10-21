@@ -1,0 +1,36 @@
+title: Starnever
+description: 多模态算法 · Agent 开发 · 大模型应用
+author: Starnever
+
+url: "https://starnever0.github.io"
+baseurl: ""
+
+lang: zh-CN
+timezone: Asia/Shanghai
+
+# GitHub Pages 白名单主题，push 后由 GitHub 直接构建，不需要 Actions、不需要本地装环境
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+show_excerpts: true
+minima:
+  date_format: "%Y-%m-%d"
+
+header_pages:
+  - about.md
+
+permalink: /:year/:month/:title/
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
