@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="160" viewBox="0 0 640 160">
+  <rect width="640" height="160" rx="8" fill="#f6f8fa"/>
+  <g font-family="-apple-system, 'Segoe UI', 'PingFang SC', sans-serif" text-anchor="middle">
+    <text x="320" y="72" font-size="18" fill="#24292f">Markdown → GitHub → 页面</text>
+    <text x="320" y="104" font-size="13" fill="#57606a">一份源文件，不需要本地构建环境</text>
+  </g>
+</svg>
